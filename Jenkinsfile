@@ -22,7 +22,7 @@ pipeline {
                     sh 'docker container rm pos-container || true'
 
                     // Menjalankan container baru dalam mode detached (-d)
-                    sh 'docker run -d --name pos-container -p 8100:8100 aditbest5/pos &'
+                    sh 'docker run -d --name pos-container -p 8800:8800 aditbest5/pos &'
                 }
             }
         }

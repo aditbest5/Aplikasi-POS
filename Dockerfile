@@ -55,7 +55,7 @@ RUN php artisan key:generate
 RUN chown -R www-data:www-data /app/storage /app/bootstrap/cache
 
 # Expose port 8000
-EXPOSE 8100
+EXPOSE 8800
 
 # Start Laravel server
-CMD php artisan serve --host=0.0.0.0 --port=8100
+CMD php artisan serve --host=0.0.0.0 --port=8800
