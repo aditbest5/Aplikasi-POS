@@ -5,10 +5,10 @@
         <div class="row justify-content-between">
             <div class="col-xl-6 col-lg-6 d-flex align-items-center">
                 <div class="main_title_1">
-                    <h3 class="fs-4">Rumah Kesejahteraan Indonesia</h3>
-                    <h3>REGISTRASI Koperasi</h3>
-                    <p>Puskop / Primkop</p>
-                    <p><em>- Rumah Kesejahteraan Indonesia</em></p>
+                    <h3 class="fs-4">Versatile Jaya</h3>
+                    <h3>REGISTRASI TOKO</h3>
+                    <p>Daftarkan Toko Usaha Anda</p>
+                    <p><em>- Aditya Aprianto</em></p>
                 </div>
             </div>
 
@@ -153,7 +153,7 @@
         const logoInput = document.getElementById('foto_logo');
         const previewLogo = document.getElementById('preview-logo');
         window.addEventListener("load", () => {
-            getProvince();            
+            getProvince();
         });
 
         function renderPengurusList() {
@@ -295,7 +295,7 @@
             renderPengurusList();
         }
 
-        
+
         logoInput.addEventListener('change', (event) => {
             const file = event.target.files[0];
             if (file) {
